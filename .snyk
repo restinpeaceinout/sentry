@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.19.0
+version: v1.21.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -8,6 +8,8 @@ patch:
         patched: '2020-10-21T19:54:21.008Z'
     - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
         patched: '2020-10-21T19:54:21.008Z'
+    - fsevents > node-pre-gyp > request > extend:
+        patched: '2021-07-05T21:19:58.368Z'
   'npm:hoek:20180212':
     - less > request > hawk > hoek:
         patched: '2020-10-21T19:54:21.008Z'
@@ -516,3 +518,5 @@ patch:
         patched: '2020-10-21T19:54:21.008Z'
     - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
         patched: '2020-10-21T19:54:21.008Z'
+    - fsevents > node-pre-gyp > request > stringstream:
+        patched: '2021-07-05T21:19:58.368Z'
