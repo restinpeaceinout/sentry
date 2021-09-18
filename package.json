@@ -85,7 +85,7 @@
     "sprintf-js": "1.0.3",
     "style-loader": "0.12.4",
     "svg-sprite-loader": "^3.4.1",
-    "svgo": "^1.1.0",
+    "svgo": "^2.0.0",
     "svgo-loader": "^2.1.0",
     "u2f-api": "0.2.3",
     "webpack": "^4.0.0",
