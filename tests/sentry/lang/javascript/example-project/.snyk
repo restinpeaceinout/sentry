@@ -1,0 +1,25 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - puppeteer > debug:
+        patched: '2022-08-23T01:17:15.869Z'
+    - chrome-launcher > lighthouse-logger > debug:
+        patched: '2022-08-23T01:17:15.869Z'
+    - puppeteer > extract-zip > debug:
+        patched: '2022-08-23T01:17:15.869Z'
+  'npm:minimatch:20160620':
+    - uglify > grunt > findup-sync > glob > minimatch:
+        patched: '2022-08-23T01:17:15.869Z'
+    - uglify > grunt > minimatch:
+        patched: '2022-08-23T01:17:15.869Z'
+    - uglify > grunt > glob > minimatch:
+        patched: '2022-08-23T01:17:15.869Z'
+  'npm:ms:20170412':
+    - puppeteer > extract-zip > debug > ms:
+        patched: '2022-08-23T01:17:15.869Z'
+  'npm:uglify-js:20151024':
+    - uglify > grunt-contrib-uglify > uglify-js:
+        patched: '2022-08-23T01:17:15.869Z'
