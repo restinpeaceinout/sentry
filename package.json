@@ -91,7 +91,7 @@
     "webpack": "^4.0.0",
     "webpack-dev-middleware": "^1.12.0",
     "zxcvbn": "^4.4.2",
-    "snyk": "^1.419.1"
+    "@snyk/protect": "latest"
   },
   "private": true,
   "APIMethod": "stub",
@@ -110,7 +110,7 @@
     "storybook-build": "build-storybook -c .storybook -o .storybook-out",
     "snapshot": "build-storybook && PERCY_TOKEN=$STORYBOOK_PERCY_TOKEN PERCY_PROJECT=$STORYBOOK_PERCY_PROJECT percy-storybook --widths=1280",
     "webpack-profile": "yarn -s webpack --profile --json > stats.json",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "yarn run snyk-protect"
   },
   "jest": {
